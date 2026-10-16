@@ -39,9 +39,9 @@ kubectl delete deployment hello                      # 用完删掉
 
 ## 为什么是这 30 条
 
-- **排障闭环**：Pod 出事照着顺序走——`get pods -A` 看状态 → `describe` 看 Events → `logs -p` 看崩溃前的日志，90% 的问题在这三步里有答案。
+- **排障闭环**：Pod 出事照着顺序走——`get pods -A` 看状态 → `describe` 看 Events → `logs -p` 看崩溃前的日志，多数问题在这三步里就能定位。
 - **发布可回滚**：`set image` 发版、`rollout status` 盯进度、出事 `rollout undo` 一条命令退回去，不用半夜翻 YAML。
-- **防手滑**：`diff` 在 `apply` 之前先看会改什么；切到生产集群前先 `get-contexts` 确认当前上下文。
+- **防手滑**：`diff` 在 `apply` 之前先看会改什么；切到生产集群前先 `config get-contexts` 确认当前上下文。
 
 ## 欢迎 PR
 
