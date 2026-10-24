@@ -65,6 +65,9 @@ kubectl delete deployment hello                      # 用完删掉
 - [退订省钱速查表](https://github.com/Ezra-Zhao/desubscribe-cheatsheet) — 10 组退订替代，年省约 $1,260
 - [SQL 速查表](https://github.com/Ezra-Zhao/sql-cheatsheet) — 查询、联表、聚合与实战写法
 - [SSH 速查表](https://github.com/Ezra-Zhao/ssh-cheatsheet) — 连接、隧道与跳板机实战
+- [Vim 命令速查表](https://github.com/Ezra-Zhao/vim-cheatsheet) — 30 条编辑、搜索替换与宏命令
+- [tmux 命令速查表](https://github.com/Ezra-Zhao/tmux-cheatsheet) — 30 条会话、窗口与窗格命令
+- [systemd 命令速查表](https://github.com/Ezra-Zhao/systemd-cheatsheet) — 30 条服务管理与日志命令
 
 ## License
 
