@@ -1,5 +1,14 @@
 # kubectl 命令速查表 · kubectl Cheatsheet
 
+> **Pod CrashLooping at 2 AM? This one page gives you the 30 kubectl commands that find out why — status, logs, events, rollout undo — no docs dive needed.**
+>
+> **Start with these 3 of the 30:**
+> ```bash
+> kubectl get pods -A                                  # which pod is not Running?
+> kubectl describe pod <pod> -n <ns>                   # check Events at the bottom
+> kubectl logs <pod> -n <ns> --previous                # logs from the crashed container
+> ```
+
 > 📚 **合集版**：这张表已收进旗舰合集 [cheatsheets](https://github.com/Ezra-Zhao/cheatsheets) —— 100 张速查表在一个仓库里，欢迎去合集点 ⭐。
 
 [![Stars](https://img.shields.io/github/stars/Ezra-Zhao/kubectl-cheatsheet?style=social)](https://github.com/Ezra-Zhao/kubectl-cheatsheet/stargazers) [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE) ![Languages](https://img.shields.io/badge/languages-3-blue)
